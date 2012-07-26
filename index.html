@@ -7,13 +7,16 @@
 <link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/themes/redmond/jquery-ui.css" rel="stylesheet" />
 <script src="script.js"></script>
 <style>
-	#draggable{width:150px; height:150px; padding:0.5em;}
+	#draggable,#droppable{width:150px; height:150px; padding:0.5em;}
 </style>
 </head>
 
 <body>
 	<div class="demo">
 		<div id="draggable" class="ui-widget-content ui-draggable" draggable></div>
+		<div id="draggable" class="ui-widget-header ui-droppable" droppable>
+			<p></p>
+		</div>
 	</div>
 </body>​
 </html>
